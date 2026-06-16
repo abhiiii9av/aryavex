@@ -93,7 +93,7 @@ export default function ProductDetailPage({ params }) {
     .filter((item) => item.slug !== product.slug);
 
   return (
-    <main className="min-h-screen bg-[linear-gradient(180deg,#faf8f3_0%,#f6f2ea_100%)]">
+    <main className="page-network-surface min-h-screen">
       <Header />
 
       <section className="px-4 pb-16 pt-12 sm:px-6 lg:px-8 lg:pb-24 lg:pt-16">

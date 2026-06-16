@@ -16,8 +16,15 @@ const solutionLinks = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-[var(--color-line)] bg-[#f3eee5] px-4 py-16 sm:px-6 lg:px-8">
-      <div className="mx-auto max-w-7xl">
+    <footer className="relative overflow-hidden border-t border-[var(--color-line)] bg-white px-4 py-16 sm:px-6 lg:px-8">
+      <div
+        aria-hidden="true"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-68"
+        style={{ backgroundImage: "url('/footer-pattern-only.png')" }}
+      />
+      <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.48)_0%,rgba(255,255,255,0.44)_34%,rgba(255,255,255,0.66)_68%,rgba(255,255,255,0.84)_100%)]" />
+
+      <div className="relative z-10 mx-auto max-w-7xl">
         <div className="grid gap-12 lg:grid-cols-[1.2fr_0.8fr_0.8fr_1fr]">
           <div>
             <Image
@@ -25,7 +32,7 @@ export default function Footer() {
               alt="Aryavex Technologies Pvt Ltd"
               width={360}
               height={114}
-              className="h-auto w-[14rem] sm:w-[16rem]"
+              className="h-auto w-[14rem] mix-blend-multiply sm:w-[16rem]"
             />
             <p className="mt-6 max-w-md text-[1.02rem] leading-8 text-[var(--color-muted)]">
               Centura SQUAre IT Park, Unit No. 440, Road Number 22, Plot No B-44 And B-44/A, Opposite Lanxess, Near Mahindra & Mahindra, Wagle estate ,Thane 400604, Maharashtra, India

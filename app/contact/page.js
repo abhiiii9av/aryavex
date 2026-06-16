@@ -9,7 +9,7 @@ export const metadata = {
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen overflow-hidden bg-[linear-gradient(180deg,#faf8f3_0%,#f6f2ea_100%)]">
+    <main className="page-network-surface min-h-screen overflow-hidden">
       <Header />
 
       <section className="px-4 pb-24 pt-12 sm:px-6 lg:px-8 lg:pb-32 lg:pt-16">

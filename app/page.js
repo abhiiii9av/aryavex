@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen overflow-hidden bg-[linear-gradient(180deg,#faf8f3_0%,#f6f2ea_100%)]">
+    <main className="page-network-surface min-h-screen overflow-hidden">
       <Header />
       <Hero />
       <ProductsSection />

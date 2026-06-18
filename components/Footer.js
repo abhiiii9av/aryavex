@@ -78,7 +78,7 @@ export default function Footer() {
               Get in Touch
             </h3>
             <div className="mt-5 space-y-4 text-[1rem] leading-8 text-[var(--color-muted)]">
-              <p>aryavex360@gmail.com</p>
+              <p>contact@aryavex.in</p>
               <p>
                 Banking technology solutions for institutions looking to scale
                 modern financial services.
@@ -99,7 +99,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-14 border-t border-[var(--color-line)] pt-6 text-sm text-[var(--color-muted)]">
-          <p>© 2025 Aryavex Technologies Pvt Ltd. All rights reserved.</p>
+          <p>© 2026 Aryavex Technologies Pvt Ltd. All rights reserved.</p>
         </div>
       </div>
     </footer>
